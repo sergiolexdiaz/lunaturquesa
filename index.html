@@ -1,60 +1,64 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Luna Turquesa - Estética Facial y Corporal</title>
-  <meta name="description" content="Luna Turquesa - Estética Facial y Corporal. Tratamientos personalizados, manos expertas y resultados visibles." />
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna Turquesa - Angie Fino</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="hero">
-    <div class="brand">
-      <div class="logo-circle" aria-hidden="true">🌙</div>
-      <h1>Luna Turquesa</h1>
-      <p class="tag">Estética Facial y Corporal</p>
+  <header>
+    <img src="images/logo.png" alt="Luna Turquesa Logo" class="logo">
+    <h1>Luna Turquesa</h1>
+    <div class="lang-switch">
+      <button onclick="setLang('es')">ES</button>
+      <button onclick="setLang('en')">EN</button>
     </div>
   </header>
 
-  <main class="content">
-    <section class="intro">
-      <h2>Bienvenida</h2>
-      <p>Bienvenida a un espacio exclusivo de estética facial y corporal. Tratamientos personalizados, manos expertas y resultados visibles, todo enfocado en tu verdadero bienestar.</p>
-      <div class="cta-row">
-        <a class="btn primary" href="tel:+571000000000">Reservar cita (llamar)</a>
-        <a class="btn outline" href="mailto:contacto@tudominio.com">Enviar email</a>
-      </div>
-    </section>
+  <section id="about">
+    <img src="images/angie.png" alt="Angie Fino" class="profile">
+    <div class="text es">
+      <h2>Sobre mí</h2>
+      <p>Soy Angie Fino, especialista en estética facial y corporal, con más de 10 años de experiencia en el cuidado integral de la piel...</p>
+    </div>
+    <div class="text en hidden">
+      <h2>About Me</h2>
+      <p>I’m Angie Fino, a specialist in facial and body aesthetics with over 10 years of experience in comprehensive skin care...</p>
+    </div>
+  </section>
 
-    <section class="services">
-      <h3>Servicios</h3>
-      <ul>
-        <li>Tratamientos faciales</li>
-        <li>Tratamientos corporales</li>
-        <li>Peeling y limpieza profunda</li>
-        <li>Asesoría personalizada</li>
-      </ul>
-    </section>
+  <section id="services">
+    <div class="text es">
+      <h2>Nuestros Servicios</h2>
+      <p>✨ Limpieza facial, microneedling, masajes y más...</p>
+    </div>
+    <div class="text en hidden">
+      <h2>Our Services</h2>
+      <p>✨ Facials, microneedling, massages & more...</p>
+    </div>
+  </section>
 
-    <section class="social">
-      <h3>Redes</h3>
-      <p>Síguenos o contáctanos en:</p>
-      <div class="social-row">
-        <a class="social-btn" href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
-        <a class="social-btn" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a class="social-btn" href="https://wa.me/573000000000" target="_blank" rel="noopener">WhatsApp</a>
-      </div>
-    </section>
+  <section id="reviews">
+    <h2>Reseñas / Reviews</h2>
+    <blockquote class="en">“Since I started treatments with Angie, my skin has never looked better.” – Emily S.</blockquote>
+    <blockquote class="es">“Desde la primera sesión con Angie, me sentí en las mejores manos.” – Laura M.</blockquote>
+  </section>
 
-    <section class="about">
-      <h3>By Angie Fino</h3>
-      <p>Profesional en estética con experiencia y enfoque en resultados naturales y seguros.</p>
-    </section>
-  </main>
+  <section id="contact">
+    <img src="images/logo.png" alt="Luna Turquesa Logo" class="logo-small">
+    <h2>Contacto</h2>
+    <div class="socials">
+      <a href="https://wa.me/15613709889"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://www.instagram.com/luna.turquesa9"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://www.tiktok.com/@lunaturquesaestet"><img src="images/tiktok.png" alt="TikTok"></a>
+      <a href="mailto:lunaturquesaestetica@gmail.com"><img src="images/email.png" alt="Email"></a>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <p>&copy; Luna Turquesa — Estética Facial y Corporal</p>
-    <p class="small">Este sitio es 100% gratuito y libre de publicidad. Puedes descargar los archivos y subirlos a cualquier host estático.</p>
+  <footer>
+    <p>© 2025 Luna Turquesa - All rights reserved</p>
   </footer>
 </body>
 </html>
